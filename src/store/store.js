@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import { authSlice } from "./auth/authSlice";
 import { calendarSlice } from "./calendar/calendarSlice";
