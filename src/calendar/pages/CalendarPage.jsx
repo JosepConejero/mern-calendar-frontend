@@ -82,6 +82,7 @@ export const CalendarPage = () => {
 
   useEffect(() => {
     startLoadingEvents();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
